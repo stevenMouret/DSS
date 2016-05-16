@@ -32,6 +32,8 @@ In most cases, you will want to include the **DSS** parser in a build step that 
 // @state :disabled - Dims the button when disabled.
 // @state .primary - Indicates button is the primary action.
 // @state .smaller - A smaller button
+//
+// @parent className
 // 
 // @markup
 //   <button>This is a button</button>

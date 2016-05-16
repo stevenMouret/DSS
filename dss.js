@@ -463,6 +463,11 @@ dss.parser( 'description', function () {
   return this.line.contents;
 });
 
+// Describe default parsing of a parent class name
+dss.parser( 'parent', function () {
+  return this.line.contents;
+});
+
 // Describe default parsing of a state
 dss.parser( 'state', function () {
   var state = this.line.contents.split( ' - ' );
